@@ -25,6 +25,16 @@ ul {
     font-weight: bold;
 }
 
+.dark {
+    padding: 15px;
+    background: #003366;
+    border-style: solid;
+    border-color: #e8491d;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
  /* header */
 
@@ -138,6 +148,34 @@ header a:hover {
 
 #boxes .box img{
     width: 90px;
+
+}
+/* sidebar */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+/* main call */
+article #main-col {
+    float: left;
+    width: 65%;
+}
+
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #a6a6a6;
+
+}
+
+input, aside#sidebar .quote textarea {
+
+    width: 90%;
+    padding: 5px;
 
 }
 
